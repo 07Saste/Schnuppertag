@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(232, 243, 255);
+    text-transform:  uppercase;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+
+h1{
+    color: withe;
+    text-align: center;
+    text-shadow: 2px 2px 7px rgb(4, 35, 67);
+    
+}
+ h2{
+    color: rgb(11, 48, 94);
+    text-align: left;
+
+
+ }    
+ 
+ h3{
+    color: rgb(11, 48, 94);
+ }  
+ 
+ p {
+    color: rgb(4, 4, 100);
+    text-align: left;
+  }
+
+  table, th, td {
+    color:rgb(11, 48, 100);
+    border: 1px solid;
+  }
+ table {
+    width: 50%
+ }
+  th {
+
+
+ }
+
+ ul.a {
+    list-style-type: circle;
+  }
+
+
+
+
+
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  p.dashed {border-style: dashed;
+    width: 50%;}
+
+
+
+  .button {
+    background-color:lightgreen ;
+    border: darkblue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+  
+
+  .gallery, img {
+    border-radius: 8px;
+  }
+
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px;
+    padding: 5px 0;
+  
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
